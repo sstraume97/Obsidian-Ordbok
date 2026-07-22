@@ -1,6 +1,3 @@
----
-uid: ordbok-pekersider-readme
----
 # Ordbok pekersider
 
 Obsidian-utvidelse som automatisk genererer pekersider (disambiguering) for alias/forkortelser
@@ -13,6 +10,7 @@ automatisk i bakgrunnen eller ved lagring.
 
 ## Innhold
 
+- [Installasjon](#installasjon)
 - [Grunnleggende begreper](#grunnleggende-begreper)
 - [Frontmatter-felt](#frontmatter-felt)
 - [Kommandoer](#kommandoer)
@@ -21,6 +19,46 @@ automatisk i bakgrunnen eller ved lagring.
 - [Maler](#maler)
 - [Brukermanual / typiske arbeidsflyter](#brukermanual--typiske-arbeidsflyter)
 - [Teknisk oppsummering](#teknisk-oppsummering)
+
+---
+
+## Installasjon
+
+### Manuell installasjon (anbefalt akkurat nå)
+
+1. Gå til [siste release](https://github.com/sstraume97/Obsidian-Ordbok/releases/latest) og
+   last ned `Relese_V0.1.0.zip`.
+2. Pakk ut zip-filen — du får to filer: `manifest.json` og `main.js`.
+3. Finn `.obsidian`-mappen i hvelvet ditt (skjult mappe i roten av hvelvet). Opprett mappen
+   `.obsidian/plugins/ordbok-pekersider/` hvis den ikke finnes fra før.
+4. Legg de to filene (`manifest.json` og `main.js`) rett inn i den mappen, slik:
+   ```
+   <ditt-hvelv>/.obsidian/plugins/ordbok-pekersider/manifest.json
+   <ditt-hvelv>/.obsidian/plugins/ordbok-pekersider/main.js
+   ```
+5. Åpne (eller start på nytt) Obsidian. Gå til **Innstillinger → Community plugins**.
+   - Hvis «Restricted mode» er på, slå det av (Obsidian advarer om at community plugins kan
+     kjøre vilkårlig kode — det gjelder alle plugins, ikke noe spesielt for denne).
+6. Finn **«Ordbok pekersider»** i listen og slå den på.
+
+Utvidelsen er nå aktiv — se [Kommandoer](#kommandoer) for hva den kan gjøre, og
+[Brukermanual](#brukermanual--typiske-arbeidsflyter) for hvordan du kommer i gang.
+
+**Oppdatering til en nyere versjon** senere: gjenta steg 1–4 (overskriv de to filene), og
+reload Obsidian (Ctrl/Cmd+R eller restart appen).
+
+### Via BRAT (automatiske oppdateringer)
+
+> **Merk**: releasen inneholder i dag filene zippet sammen (`Relese_V0.1.0.zip`), og BRAT
+> forventer `manifest.json`/`main.js` som egne, ikke-komprimerte filer i releasen for å kunne
+> installere automatisk. Inntil det er lagt til som separate filer i en release, fungerer kun
+> den manuelle installasjonen over.
+>
+> Skal dette støttes, må `manifest.json` og `main.js` også legges ved **som egne filer** (i
+> tillegg til eller i stedet for zip-en) på release-siden.
+
+Når det er på plass: installer community-pluginet **«BRAT»**, kjør kommandoen
+**«BRAT: Add a beta plugin for testing»**, og lim inn `https://github.com/sstraume97/Obsidian-Ordbok`.
 
 ---
 
