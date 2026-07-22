@@ -1,0 +1,10 @@
+{
+  "id": "ordbok-pekersider",
+  "name": "Ordbok pekersider",
+  "version": "0.1.0",
+  "minAppVersion": "1.4.0",
+  "description": "Genererer pekersider (for alias som finnes på flere sider) og redirect-sider (for alias som finnes på én side) via en manuell kommando.",
+  "author": "Sondre Bogen-Straume",
+  "authorUrl": "",
+  "isDesktopOnly": false
+}
