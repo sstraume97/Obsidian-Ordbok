@@ -1,7 +1,7 @@
 {
 	"name": "ordbok-pekersider",
-	"version": "0.1.0",
-	"description": "Genererer pekersider og redirect-sider for alias i Obsidian-hvelvet.",
+	"version": "0.2.0",
+	"description": "Genererer pekersider og redirect-sider for alias i Obsidian-hvelvet, med leksikon-struktur, Wikidata-import, ID-serier og Claude-integrasjon.",
 	"main": "main.js",
 	"scripts": {
 		"dev": "node esbuild.config.mjs",

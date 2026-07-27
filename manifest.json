@@ -1,10 +1,10 @@
 {
   "id": "ordbok-pekersider",
-  "name": "Ordbok pekersider",
-  "version": "0.1.0",
+  "name": "Ordbok",
+  "version": "0.2.0",
   "minAppVersion": "1.4.0",
-  "description": "Genererer pekersider (for alias som finnes på flere sider) og redirect-sider (for alias som finnes på én side) via en manuell kommando.",
+  "description": "Genererer pekersider og redirect-sider for forkortelser, organiserer et alfabetisk leksikon, henter autoritetsdata fra Wikidata og deler ut interne ID-numre - alt via manuelle kommandoer.",
   "author": "Sondre Bogen-Straume",
-  "authorUrl": "",
+  "authorUrl": "https://github.com/sstraume97/Obsidian-Ordbok",
   "isDesktopOnly": false
 }
